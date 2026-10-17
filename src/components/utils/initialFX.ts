@@ -43,14 +43,14 @@ export function initialFX() {
   // Set up text alternating animation
   const timeline = gsap.timeline({ repeat: -1 });
   
-  // Designer/Developer text animation
+  // Android/Web3 role text animation
   timeline
     .to(".landing-h2-2", { opacity: 1, duration: 0.5, delay: 2 })
     .to(".landing-h2-1", { opacity: 0, duration: 0.5 }, "<")
     .to(".landing-h2-2", { opacity: 0, duration: 0.5, delay: 2 })
     .to(".landing-h2-1", { opacity: 1, duration: 0.5 }, "<");
 
-  // Secondary Designer/Developer text animation
+  // Secondary Developer/Engineer text animation
   timeline
     .to(".landing-h2-info-1", { opacity: 1, duration: 0.5 }, "<")
     .to(".landing-h2-info", { opacity: 0, duration: 0.5 }, "<")

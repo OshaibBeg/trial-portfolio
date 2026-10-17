@@ -43,21 +43,21 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="kalpicksharma@gmail.com" data-cursor="disable">
-                kalpicksharma@gmail.com
+              <a href="mailto:oshaibbeg181203@gmail.com" data-cursor="disable">
+                oshaibbeg181203@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+91 8810308974" data-cursor="disable">
-                +91 8810308974
+              <a href="tel:+919897655363" data-cursor="disable">
+                +91 9897655363
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/KalpickSharma"
+              href="https://github.com/OshaibBeg"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -65,28 +65,12 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/kalpick-sharma-20a759250"
+              href="https://www.linkedin.com/in/oshaib-beg-3175b4251"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
               LinkedIn <MdArrowOutward />
-            </a>
-            <a
-              href="https://x.com/KalpickSharma"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/kalpick/"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
             </a>
           </div>
 
@@ -183,7 +167,7 @@ const Contact = () => {
 
         <div className="contact-credits-box">
           <h2>
-            Designed and Developed by <span>Kalpick Sharma</span>
+            Built by <span>Oshaib Beg</span>
           </h2>
           <p>
             <MdCopyright /> 2025 All rights reserved.

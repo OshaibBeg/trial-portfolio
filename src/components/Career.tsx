@@ -29,13 +29,13 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>UI/UX Intern</h4>
-                <h5>Proxenix</h5>
+                <h4>Campus Maeven</h4>
+                <h5>Rise In</h5>
               </div>
-              <h3>2025</h3>
+              <h3>June 2024 - Jan 2025</h3>
             </div>
             <p>
-              Contributed to dashboard UI and paint gallery website design. Assisted in research, wireframing, and visual interface creation using Figma.
+              Taken different initiatives to promote Rise In's mission of empowering students and fostering innovation. Organized workshops, mentorship programs, and networking events to connect students with industry professionals.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const Career = () => {
               <h3>2024</h3>
             </div>
             <p>
-              Contributed to SprintHacks 2.0 as a graphic designer, delivering impactful visuals for the event. Successfully collaborated with teams to design promotional content and event assets using Figma.
+            used my outreach skills to gather sponsors and partners for SprintHacks 2.0, ensuring a successful event with strong community support.
             </p>
           </div>
 
@@ -94,26 +94,25 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Graphic Design Intern</h4>
-                <h5>GreenBhumi</h5>
+                <h4>Android Development Intern</h4>
+                <h5>BluePedia.org</h5>
               </div>
-              <h3>2022</h3>
+              <h3>Dec 2025 - April 2026</h3>
             </div>
             <p>
-              Crafted designs for environmental campaigns and branding projects. Proficiently used Adobe Illustrator to create logos, infographics, and promotional content.
+              Created an Android application for BluePedia.org, focusing on user-friendly design and efficient functionality. Implemented features to enhance user engagement and streamline information access.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Freelance Designer</h4>
-                <h5>KalpickLogoArts</h5>
+                <h4>Freelance Developer</h4>
               </div>
-              <h3>2020</h3>
+              <h3>2023- present</h3>
             </div>
             <p>
-              Founded KalpickLogoArts, specializing in custom logos and brand identities. Built a reputation for delivering impactful designs showcased on Instagram, Dribbble, and Pinterest.
+              Worked on various freelance projects, delivering high-quality web and mobile solutions. Collaborated with clients to understand their needs and provide tailored development services.
             </p>
           </div>
         </div>

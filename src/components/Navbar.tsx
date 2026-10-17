@@ -62,15 +62,15 @@ const Navbar = ({ onOpenResume }: NavbarProps) => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          KS
+          OB
         </a>
 
         <a
-          href="mailto:kalpicksharma@gmail.com"
+          href="mailto:oshaibbeg181203@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          kalpicksharma@gmail.com
+          oshaibbeg181203@gmail.com
         </a>
 
         <ul>

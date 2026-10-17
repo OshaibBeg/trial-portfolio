@@ -22,8 +22,8 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
     soundFx.playClick();
     // Path to downloadable PDF
     const link = document.createElement("a");
-    link.href = "/Kalpick_Sharma_Resume.pdf";
-    link.download = "Kalpick_Sharma_Resume.pdf";
+    link.href = "/Oshaib_Beg_Resume.pdf";
+    link.download = "Oshaib_Beg_Resume.pdf";
     link.click();
   };
 
@@ -35,8 +35,8 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
       >
         <div className="resume-header">
           <div className="resume-title-box">
-            <h2>Kalpick Sharma</h2>
-            <p className="resume-subtitle">Full Stack & Creative Web Developer</p>
+            <h2>Oshaib Beg</h2>
+            <p className="resume-subtitle">Software Engineer / Developer</p>
           </div>
 
           <div className="resume-header-actions">
@@ -63,12 +63,11 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
         <div className="resume-body">
           <div className="resume-contact-bar">
             <span>
-              <MdEmail /> kalpicksharma@gmail.com
+              <MdEmail /> oshaibbeg181203@gmail.com
             </span>
             <span>
-              <MdPhone /> +91 8810308974
+              <MdPhone /> +91 9897655363
             </span>
-            <span>📍 New Delhi, India</span>
           </div>
 
           <div className="resume-grid">
@@ -77,10 +76,9 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
                 <MdWork /> Professional Summary
               </h3>
               <p>
-                Passionate Web Developer & Creative Engineer specializing in React,
-                TypeScript, 3D web experiences (Three.js/Fiber), and modern animated UI
-                development. Proven track record of building high-performance web applications,
-                APIC platforms, and AI-integrated tools with exceptional visual standards.
+                Passionate web developer with a strong grasp of HTML, CSS, and JavaScript.
+                Invested in modern web frameworks and technologies, focused on improving user
+                experience and taking on new challenges.
               </p>
             </div>
 
@@ -89,29 +87,36 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
                 <MdStar /> Core Technical Expertise
               </h3>
               <div className="resume-tags">
-                <span>React.js</span>
-                <span>TypeScript</span>
-                <span>Three.js / Fiber</span>
-                <span>GSAP Animations</span>
-                <span>Node.js / Express</span>
-                <span>FastAPI</span>
+                <span>Java</span>
+                <span>C</span>
+                <span>C++</span>
                 <span>Python</span>
-                <span>MongoDB</span>
-                <span>Figma & Design Systems</span>
-                <span>AI Prompt Engineering</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+                <span>React</span>
+                <span>Git & GitHub (Basic)</span>
+                <span>Smart Contracts</span>
               </div>
             </div>
 
             <div className="resume-section">
               <h3>
-                <MdSchool /> Education & Achievements
+                <MdSchool /> Education & Certifications
               </h3>
               <ul className="resume-list">
                 <li>
-                  <strong>B.Tech / Degree in Computer Science</strong> - Specialization in Web Technologies and Interactive Systems.
+                  <strong>B.Tech, Artificial Intelligence</strong> - Sakhi Seva GL Bajaj Institute of Technology and Management (Nov 2022 - Sep 2026).
                 </li>
                 <li>
-                  <strong>Brand Identity & UI Design Specialist</strong> - Custom 3D graphics, graphic design with Illustrator & Figma.
+                  <strong>G.P.M College, Bareilly</strong> - Council for the Indian School Certificate Examination (2011 - 2021).
+                </li>
+                <li>
+                  <strong>AWS Academy Graduate</strong> - AWS Academy Cloud Foundations.
+                </li>
+                <li>
+                  <strong>AWS Academy Graduate</strong> - AWS Academy Cloud Architecting.
                 </li>
               </ul>
             </div>
@@ -119,7 +124,7 @@ const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
         </div>
 
         <div className="resume-footer">
-          <span>Official Resume Document • Last Updated 2025</span>
+          <span>Resume details from the supplied document</span>
           <button className="resume-secondary-dl" onClick={handleDownload}>
             Download PDF Version
           </button>

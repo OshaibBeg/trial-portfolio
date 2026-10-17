@@ -55,15 +55,15 @@ const About = () => {
         <h3 className="title">About Me</h3>
         <div className="text-content">
           <TypingText
-            text="Designer by craft. Developer by ambition. Builder by mindset."
+            text="Android developer focused on building useful, reliable mobile experiences."
             delay={0.5}
           />
           <TypingText
-            text="I'm Kalpick Sharma — I blend logo design expertise with software development to build meaningful products and brands."
+            text="I'm Oshaib Beg — a software engineer and web developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks."
             delay={2.5}
           />
           <TypingText
-            text="Driven by curiosity, startups, and community-led growth. Great things are built through consistency."
+            text="I'm pursuing a B.Tech in Artificial Intelligence at Sakhi Seva GL Bajaj Institute of Technology and Management."
             delay={5.5}
           />
         </div>

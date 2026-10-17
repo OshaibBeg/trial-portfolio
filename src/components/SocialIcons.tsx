@@ -1,8 +1,6 @@
 import {
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
   FaFilePdf
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
@@ -62,7 +60,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/KalpickSharma"
+            href="https://github.com/OshaibBeg"
             target="_blank"
             data-cursor="disable"
           >
@@ -71,7 +69,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.linkedin.com/in/kalpick-sharma-20a759250"
+            href="https://www.linkedin.com/in/oshaib-beg-3175b4251"
             target="_blank"
             data-cursor="disable"
           >
@@ -80,34 +78,19 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://x.com/Kalpicklogoarts"
-            target="_blank"
-            data-cursor="disable"
-          >
-            <FaXTwitter />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.instagram.com/kalpick/"
-            target="_blank"
-            data-cursor="disable"
-          >
-            <FaInstagram />
-          </a>
-        </span>
-        <span>
-          <a
-            href="/KResumedev2.pdf"
-            target="_blank"
-            download
+            href="/Oshaib_Beg_Resume.pdf"
+            download="Oshaib_Beg_Resume.pdf"
             data-cursor="disable"
           >
             <FaFilePdf />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#KResumedev2.pdf" target="_blank" download>
+      <a
+        className="resume-button"
+        href="/Oshaib_Beg_Resume.pdf"
+        download="Oshaib_Beg_Resume.pdf"
+      >
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

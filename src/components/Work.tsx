@@ -3,57 +3,25 @@ import "./styles/Work.css";
 const Work = () => {
   const projects = [
     {
-      title: "Portfolio",
-      category: "Web Development",
-      tools: "React, TypeScript, GSAP, ThreeJS",
-      image: "/images/Screenshot 2025-01-29 013539.png",
-      type: "image",
-      aspectRatio: "16/9",
-      link: "https://github.com/KalpickSharma/Portfolio-Website.git"
+      title: "Sahayak",
+      category: "Java Application",
+      tools: "Java",
+      description:
+        "A Java app focused on peace, justice, and strong institutions, with an emphasis on creating a safer environment for women.",
     },
     {
-      title: "APIC Platform",
-      category: "Web Development",
-      tools: "HTML, CSS, JavaScript",
-      image: "/images/Screenshot 2025-01-29 013604.png",
-      type: "image",
-      aspectRatio: "16/9",
-      link: "https://kalpicksharma.github.io/kalpicksharmaApic.html/"
+      title: "Charitable Donations Transparency",
+      category: "Blockchain Project",
+      tools: "Solana",
+      description:
+        "A donation transparency project using the Solana blockchain to improve accountability in charitable giving.",
     },
     {
-      title: "Brand Identity",
-      category: "Logo Design",
-      tools: "Adobe Illustrator, Figma",
-      video: "/images/Samples.mp4",
-      type: "video",
-      aspectRatio: "1/1"
-    },
-    {
-      title: "Charge Edu Landing",
-      category: "Web Development",
-      tools: "HTML, CSS, JavaScript",
-      image: "/images/Screenshot 2025-01-29 013621.png",
-      type: "image",
-      aspectRatio: "16/9",
-      link: "https://kalpicksharma.github.io/Landing-Page-Charge-edu-tech/"
-    },
-    {
-      title: "AlloyTrik",
-      category: "Web Development/Website",
-      tools: "React, TypeScript",
-      image: "/images/alloytrik.png",
-      type: "image",
-      aspectRatio: "16/9",
-      link: "https://github.com/KalpickSharma/AlloyTrik.git"
-    },
-    {
-      title: "Meet Prototype",
-      category: "Progressive Web Application",
-      tools: "HTML, JavaScript, Render",
-      image: "/images/meet-prototype.png",
-      type: "image",
-      aspectRatio: "16/9",
-      link: "https://github.com/KalpickSharma/meet-prototype.git"
+      title: "MindBody Wellness",
+      category: "Wellness Platform",
+      tools: "Confidential video consultations",
+      description:
+        "A mental wellness project offering private video consultations and personalized support for stress, anxiety, and emotional well-being.",
     },
   ];
 
@@ -70,23 +38,16 @@ const Work = () => {
                 <h2>{project.title}</h2>
                 <p>{project.category}</p>
                 <p className="tools">{project.tools}</p>
+                <p>{project.description}</p>
                 {project.link && (
                   <a href={project.link} target="_blank" rel="noopener noreferrer" className="view-project">
                     View Project
                   </a>
                 )}
               </div>
-              {project.type === "video" ? (
+              {project.image && (
                 <div className="work-media" style={{ aspectRatio: project.aspectRatio }}>
-                  <video autoPlay loop muted playsInline>
-                    <source src={project.video} type="video/mp4" />
-                  </video>
-                </div>
-              ) : (
-                <div className="work-media" style={{ aspectRatio: project.aspectRatio }}>
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <img src={project.image} alt={project.title} />
-                  </a>
+                  <img src={project.image} alt={project.title} />
                 </div>
               )}
             </div>

@@ -89,17 +89,17 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-              Kalpick Sharma is an aspiring SDE specializing in front-end development, Web3, IoT, and cybersecurity.
-               He builds secure and scalable digital solutions while staying ahead with cutting-edge technology.
-                Active in hackathons and tech communities, he thrives on innovation
+              Oshaib Beg is a software engineer and web developer with experience in Java, C, C++, Python, and modern web technologies.
+              He builds with HTML, CSS, JavaScript, Node.js, and React, and has experience creating smart contracts.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-  <div className="what-tags">Web Development</div>
-  <div className="what-tags">Web3</div>
-  <div className="what-tags">IoT</div>
-  <div className="what-tags">Cybersecurity</div>
-  <div className="what-tags">Python</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">C / C++</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">React / Node.js</div>
+                <div className="what-tags">Smart Contracts</div>
+                <div className="what-tags">Python</div>
 </div>
               <div className="what-arrow"></div>
             </div>
@@ -123,19 +123,17 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>ANDROID</h3>
               <h4>Description</h4>
               <p>
-              Kalpick Sharma is a freelance graphic designer with 5 years of expertise in logo design and brand identities.
-               His work, featured on Instagram, Dribbble, and Pinterest, showcases creativity and precision. 
-              He collaborates with communities to deliver impactful visual storytelling.
+              Oshaib Beg is an Android developer focused on clear, dependable mobile experiences.
+              He brings a software engineering mindset to mobile features, integrations, and performance.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-  <div className="what-tags">Logo Design</div>
-  <div className="what-tags">Brand Identity</div>
-  <div className="what-tags">Visual Design</div>
-  <div className="what-tags">UI/UX</div>
+                <div className="what-tags">Android Development</div>
+                <div className="what-tags">Mobile Apps</div>
+                <div className="what-tags">Software Engineering</div>
 </div>
               <div className="what-arrow"></div>
             </div>
