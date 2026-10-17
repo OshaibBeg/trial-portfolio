@@ -1,7 +1,17 @@
 import "./styles/Work.css";
 
+type WorkItem = {
+  title: string;
+  category: string;
+  tools: string;
+  description: string;
+  link?: string;
+  image?: string;
+  aspectRatio?: string;
+};
+
 const Work = () => {
-  const projects = [
+  const projects: WorkItem[] = [
     {
       title: "Sahayak",
       category: "Java Application",
